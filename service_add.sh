@@ -48,7 +48,7 @@ esac
 
 #写入文件
 echo "[Unit]
-Description=dolo Service
+Description=${work_name} Service
 After=network.target
 After=syslog.target
 
@@ -75,7 +75,7 @@ else
 fi
 
 echo "#######################################「重启守护进程」##########################################"
-systemctl reload-daemon
-systemctl enabled "${work_name}.service"
+systemctl daemon-reload
+systemctl enable "${work_name}.service"
 systemctl status "${work_name}.service"
 
