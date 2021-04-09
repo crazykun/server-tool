@@ -23,8 +23,7 @@ case $YES in
 esac
 
 #判定服务是否存在
-# service_name="/etc/systemd/system/"$work_name".service"
-service_name="/home/kun/Desktop/"$work_name".service"
+service_name="/etc/systemd/system/"$work_name".service"
 if [ -f  service_name ]; then
     echo "服务已经存在"
     exit 1
