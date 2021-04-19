@@ -6,5 +6,5 @@ if [ ! -n "$process_name" ]; then
 fi
 
 for i in `ps aux|grep ${process_name}|grep -v grep|awk '{print $2}'`;
-    do echo stop process $i ...;sudo kill $i; done;
+    do echo stop process $i ...;sudo kill -9 $i; done;
 echo "stop ${process_name}.... success!"

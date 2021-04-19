@@ -19,5 +19,5 @@ sh service_add.sh
 
 >直接下载使用
 ```bash
-yum install -y wget && wget -O service_add.sh http://git.zuhaowan.com.cn/common/tools/-/raw/master/service_add.sh && sh service_add.sh
+yum install -y wget && wget -O service_add.sh http://git.zuhaowan.com.cn/public-tool/server-tool/-/raw/master/service_add.sh && sh service_add.sh
 ````
