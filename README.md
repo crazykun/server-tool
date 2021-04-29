@@ -7,7 +7,8 @@
 ```
 .
 ├── check_os.sh  系统检测
-├── service_add.sh 添加服务
+├── service_add.sh 添加服务 (easyswoole 3.3.x)
+├── service_add_new.sh 添加服务 (easyswoole 3.4.x)
 ├── kill_process.sh 清理僵尸进程
 └── README.md
 ```
@@ -20,4 +21,9 @@ sh service_add.sh
 >直接下载使用
 ```bash
 yum install -y wget && wget -O service_add.sh http://git.zuhaowan.com.cn/public-tool/server-tool/-/raw/master/service_add.sh && sh service_add.sh
+````
+
+>easyswoole 3.4.x
+```bash
+yum install -y wget && wget -O service_add.sh http://git.zuhaowan.com.cn/public-tool/server-tool/-/raw/master/service_add_new.sh && sh service_add.sh
 ````
