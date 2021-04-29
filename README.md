@@ -20,10 +20,10 @@ sh service_add.sh
 
 >直接下载使用
 ```bash
-yum install -y wget && wget -O service_add.sh http://git.zuhaowan.com.cn/public-tool/server-tool/-/raw/master/service_add.sh && sh service_add.sh
+yum install -y wget && wget -O service_add.sh https://raw.githubusercontent.com/crazykun/server-tool/master/service_add.sh && sh service_add.sh
 ````
 
 >easyswoole 3.4.x
 ```bash
-yum install -y wget && wget -O service_add.sh http://git.zuhaowan.com.cn/public-tool/server-tool/-/raw/master/service_add_new.sh && sh service_add.sh
+yum install -y wget && wget -O service_add.sh https://raw.githubusercontent.com/crazykun/server-tool/master/service_add_new.sh && sh service_add.sh
 ````
