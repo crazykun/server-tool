@@ -7,6 +7,8 @@
 ```
 .
 ├── check_os.sh  系统检测
+├── kill_process_by_name.sh 根据名字杀进程
+├── kill_process_by_port.sh 根据端口杀进程
 ├── service_add.sh 添加服务 (easyswoole 3.3.x)
 ├── service_add_new.sh 添加服务 (easyswoole 3.4.x)
 ├── kill_process.sh 清理僵尸进程
