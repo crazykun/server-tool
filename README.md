@@ -7,6 +7,7 @@
 ```
 .
 ├── check_os.sh  系统检测
+├── keep_alive.sh  保持在线
 ├── kill_process_by_name.sh 根据名字杀进程
 ├── kill_process_by_port.sh 根据端口杀进程
 ├── service_add.sh 添加服务 (easyswoole 3.3.x)
