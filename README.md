@@ -13,6 +13,7 @@
 ├── service_add.sh 添加服务 (easyswoole 3.3.x)
 ├── service_add_new.sh 添加服务 (easyswoole 3.4.x)
 ├── kill_process.sh 清理僵尸进程
+├── os_repo_speed_test.sh 国内源速度测试
 └── README.md
 ```
 
