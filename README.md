@@ -7,6 +7,7 @@
 ```
 .
 ├── check_os.sh  系统检测
+├── cpu_warn.sh  cpu大于20%, 机器人报警
 ├── create_table_timing.sh  定时创建mysql表
 ├── keep_alive.sh  保持在线
 ├── kill_process_by_name.sh 根据名字杀进程
